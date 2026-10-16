@@ -1,6 +1,6 @@
 //question
 
-let statuscode = 404;
+let statuscode = 403;
 let category = statuscode < 300 ? "Success" : statuscode < 400 ? "Redirect" : statuscode < 500 ? "Client Error" : "Server Error";
 
 console.log(`Status ${statuscode} :${category}`);
